@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -65,4 +69,28 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+/* zone Poster */
+.zone-poster {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+.zone-poster-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.zone-poster-title {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.zone-poster-description {
+  color: #555;
 }
