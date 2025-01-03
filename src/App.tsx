@@ -2,6 +2,7 @@
 // import { Button } from "@/components/ui/button"
 
 import { ZonePoster } from "@/components/children/ZonePoster"
+import { Panel } from "@/components/children/Panel"
 
 
 import './App.css'
@@ -19,8 +20,7 @@ function App() {
       </div>
       
       <div className="w-20 bg-red">
-       <h1 className="text-3xl font-bold underline">Panel</h1>
-        
+        <Panel></Panel>
       </div>
      
     </div>
