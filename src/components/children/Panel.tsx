@@ -1,4 +1,6 @@
-import { Divide } from "lucide-react"
+import StepperIndicator from "./StepperIndicator";
+
+
 
 export const Panel = () => {
 
@@ -6,6 +8,7 @@ export const Panel = () => {
         <div>
             <h1>Run Memories</h1>
             <hr></hr>
+            <StepperIndicator activeStep={5}/>
 
         </div>
 
