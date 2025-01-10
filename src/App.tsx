@@ -11,15 +11,14 @@ function App() {
   
 
   return (
-    <div className="w-full flex">
-      <div className="w-80 max-h-screen md:max-h-screen lg:max-h-screen xl:max-h-screen 2xl:max-h-screen md:w-full lg:w-full xl:w-full 2xl:w-full left-0 bg-blue ">
-       
+    <div className="flex">
+      <div className="">
         <ZonePoster></ZonePoster>
       
 
       </div>
       
-      <div className="w-20 bg-red">
+      <div className="">
         <Panel></Panel>
       </div>
      
